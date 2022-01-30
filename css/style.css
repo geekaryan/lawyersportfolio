@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Lato:wght@300&family=Montserrat:wght@200&family=Murecho:wght@700&family=Roboto&family=Roboto+Mono:wght@100&family=Source+Sans+Pro:wght@200&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Lato:wght@300&family=Montserrat:wght@200&family=Murecho:wght@700&family=PT+Sans&family=Roboto&family=Roboto+Mono:wght@100&family=Source+Sans+Pro:wght@200&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Lato:wght@300&family=Luxurious+Roman&family=Montserrat:wght@200&family=Murecho:wght@700&family=PT+Sans&family=Roboto&family=Roboto+Mono:wght@100&family=Source+Sans+Pro:wght@200&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Gideon+Roman&family=Lato:wght@300&family=Luxurious+Roman&family=Montserrat:wght@200&family=Murecho:wght@700&family=PT+Sans&family=Roboto&family=Roboto+Mono:wght@100&family=Source+Sans+Pro:wght@200&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Gideon+Roman&family=Lato:wght@300&family=Luxurious+Roman&family=Merriweather:wght@300&family=Montserrat:wght@200&family=Murecho:wght@700&family=PT+Sans&family=Roboto&family=Roboto+Mono:wght@100&family=Source+Sans+Pro:wght@200&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;700&family=Gideon+Roman&family=Lato:wght@300&family=Luxurious+Roman&family=Merriweather:wght@300&family=Montserrat:wght@200&family=Murecho:wght@700&family=Nunito+Sans:wght@300&family=PT+Sans&family=Roboto&family=Roboto+Mono:wght@100&family=Source+Sans+Pro:wght@200&family=Source+Serif+4&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(34, 31, 27);
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    padding: 0 62px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    padding: 0 76px;
+    list-style-type: none;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 13px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    font-size: 110%;
+    color: black;
+    background: rgb(124, 124, 15);
+}
+
+main {
+    background-color: pink;
+}
+
+.container {
+    height: 770px;
+    min-height: calc(100vh - 50px - 10vh);
+    background-image: url("bgcolor.jpg");
+    background-size: 100% 100%;
+}
+
+.box1 {
+    padding: 0 56px;
+    height: 300px;
+    width: 130vh;
+    min-height: 65vh;
+    position: absolute;
+    right: 60px;
+    bottom: -300px;
+}
+
+.box1 h3 {
+    text-align: right;
+    font-size: 70px;
+    font-family: 'Luxurious Roman', cursive;
+    color: black;
+}
+
+.box4 {
+    text-align: center;
+    position: absolute;
+    height: 300px;
+    width: 130vh;
+    bottom: 200px;
+    right: 3px;
+}
+
+.image {
+    width: 400px;
+    position: absolute;
+    bottom: -108px;
+}
+
+.image img {
+    height: 685px;
+    margin: 38px 5px;
+    padding: 65px 12px;
+}
+
+.container1 {
+    height: 702px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 140px;
+    font-family: 'Merriweather', serif;
+}
+
+.box2 {
+    position: absolute;
+    left: 310px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Gideon Roman', cursive;
+}
+
+.container2 {
+    height: 479px;
+    background-color: rgb(146, 241, 146);
+}
+
+.box3 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 26px;
+    background-color: rgb(146, 241, 146);
+}
+
+.box3 ul li {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 26px;
+}
+
+.container3 {
+    height: 800px;
+    background-color: white;
+}
+
+.image1 {
+    height: 110px;
+    padding: 0 300px;
+}
+
+.container4 {
+    height: 80px;
+    background-color: white;
+}
+
+.box5 {
+    position: absolute;
+    padding: 0 600px;
+    font-size: 17px;
+}
+
+h6 {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgb(212, 212, 243);
+    height: 8vh;
+}
+
+.foot {
+    color: black;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.info {
+    text-align: center;
+}
